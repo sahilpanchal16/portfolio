@@ -1,0 +1,441 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #fff;
+    height: 75px;
+    width: 99%;
+    display: flex;
+    align-items: center;
+ /* gap: 20px; */
+    justify-content:space-around;
+   border: 1px solid #e7e7e7;
+}
+header ul{
+    list-style: none;
+    display: flex;  
+}
+header ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+header ul li a{
+    color: rgb(19, 17, 18);
+    text-decoration: none;
+    font-size: 20px;   
+    transition: all 0.3s; 
+}
+header ul li a:hover{
+    color: black;
+}
+.tour1{
+    display: none;
+}
+
+header ul li:hover .tour1 {
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: rgb(230, 236, 236);
+    top: 100%;
+}
+header ul li:hover .tour1 ul{
+    display: block;
+    margin: 10px;
+}
+header ul li:hover .tour1 ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+.sp{
+    display: none;
+}
+.tour1 ul li:hover .sp {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color: rgb(251, 248, 248);
+ }
+  .fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+
+} 
+ .sp{
+    display: none;
+}
+.comm ul li:hover .tour3 {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color:rgb(251, 248, 248);
+ } 
+ 
+ /* ------holidy menu--------------- */
+ .holi-d{
+    display: none;
+}
+
+header ul li:hover .holi-d{
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color:rgb(230, 236, 236);
+    top: 100%;
+}
+header ul li:hover .holi-d ul{
+    display: block;
+    margin: 10px;
+}
+header ul li:hover .holi-d ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+.tou-d{
+    display: none;
+}
+.holi-d ul li:hover .tou-d {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color: rgb(251, 248, 248);
+ }
+ .mot-d{
+    display: none;
+}
+.holi-d ul li:hover .mot-d {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color:rgb(251, 248, 248);
+ }
+.hin-d{
+   display: none;
+}
+.holi-d ul li:hover .hin-d {
+   display: block;
+   position: absolute;
+   top: 0px;
+   left: 170px;
+   background-color:rgb(251, 248, 248);
+}
+/*    Pack */
+.pack-d{
+    display: none;
+}
+
+header ul li:hover .pack-d{
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: rgb(230, 236, 236);
+    top: 100%;
+}
+header ul li:hover .pack-d ul{
+    display: block;
+    margin: 10px;
+}
+header ul li:hover .pack-d ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+.stat-d{
+    display: none;
+}
+.pack-d ul li:hover .stat-d {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color:rgb(251, 248, 248);
+ }
+ .inter-d{
+    display: none;
+}
+.pack-d li:hover .inter-d {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color:rgb(251, 248, 248);
+ }
+.popu-d{
+   display: none;
+}
+.pack-d ul li:hover .popu-d {
+   display: block;
+   position: absolute;
+   top: 0px;
+   left: 170px;
+   background-color: rgb(251, 248, 248);
+}
+                                       /*    Places To stay  */
+.plac-d{
+    display: none;
+}
+
+header ul li:hover .plac-d{
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color:rgb(230, 236, 236);
+    top: 100%;
+}
+header ul li:hover .plac-d ul{
+    display: block;
+    margin: 10px;
+}
+header ul li:hover .plac-d ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+.city-d{
+    display: none;
+}
+.plac-d ul li:hover .city-d {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color:rgb(251, 248, 248);
+ }
+ .fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+ .wild-d{
+    display: none;
+}
+.plac-d li:hover .wild-d {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color: rgb(251, 248, 248);
+ }
+ .fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+.beach-d{
+   display: none;
+}
+.plac-d ul li:hover .beach-d {
+   display: block;
+   position: absolute;
+   top: 0px;
+   left: 170px;
+   background-color:rgb(251, 248, 248);
+}
+.fas{
+    float: right;
+    margin-left: 5px;
+    padding-top: 3px;
+
+}
+.lux-d{
+    display: none;
+ }
+ .plac-d ul li:hover .lux-d {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    background-color: rgb(251, 248, 248);
+ }
+ 
+ .fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+/* .............................hero.............. */
+.tod-2{
+    display: flex;
+    justify-content: center;
+
+}
+.imgked{
+    box-shadow:  10PX 10PX 10pX  #d6cdcd;
+}
+.p1{
+    font-size: 50px;
+}
+.p2{
+    font-size: 50px;
+}
+.hero{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.p3{
+margin-top: 15px;
+font-size: 20px;
+}
+.lp{
+    margin-top: 30px;
+}
+.lp img{
+    padding-left: 15px;
+    box-shadow:  10PX 10PX 10px #7e7373;
+}
+/*..........top trading...........    */
+.tod{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 33px;
+}
+.flot{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 33px;
+    gap: 15px;
+    font-size: 13px;
+}
+.sk{
+    font-size: 20px;
+    margin-top: 10px;
+}
+                     /*........sec-5...  */
+.sec-5{
+    margin-top: 60px;
+    margin-left: 55px;
+}
+/* ..........................ganga.................. */
+.ganga{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aar{
+    margin-top: 120px;
+    margin-left:55px;
+}
+.about{
+    margin-top: 180px;
+    margin-left: 45px;
+    height: 520px;
+    width: 27%;
+}
+.us{
+    margin-top: 180px;
+    margin-left: 20px;
+    height: 520px;
+    width: 27%;
+}
+/*              footer    */
+.container{
+	max-width: 1170px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px ;
+    margin-top: 50px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	position: absolute;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 720px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 480px){
+  .footer-col{
+    width: 100%;
+}
+}

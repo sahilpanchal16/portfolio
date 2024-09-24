@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-image: url(./fimage.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    padding-left: 60px;
+}
+.logo:hover{
+    transform: rotate(360deg);
+    transition: 5s;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    text-decoration: overline;
+    font-size: 20px;
+    color: aliceblue;
+}
+li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 90px;
+}
+ul li a:hover{
+    color: rgb(85, 42, 165);
+    font-size: 30px;
+}
+
+/* ..................hero........................... */
+.hero{
+    background-image:url(./banner1.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.deli{
+    display:flex;
+    justify-content:center;
+}
+/* ...................s2............... */
+.offer{
+    padding-top: 90px;
+    padding-left:10px;
+    justify-content: center;
+    
+}
+.offer h2{
+    padding-bottom:50px;
+    font-size: 30px;
+    text-decoration:underline;
+    padding-left: 120px;
+}
+.deals{
+    display: flex;
+    justify-content: flex-start;
+}
+.deals img:hover{
+  height: 180px;
+  width:260px;
+}
+.offer h2:hover{
+    color: rgb(42, 165, 118);
+    font-size: 32px;
+}
+.about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.abd{
+    padding-left: 100px;
+    padding-top: 120px;    
+}
+.abd p{
+    padding-top:6px;
+    font-size:20px;
+}
+.abd h1:hover{
+    font-size:35px;
+    color: brown;
+}
+.abd p:hover{
+    color: brown;
+}
+.dinner{
+    display: flex;
+    justify-content:end;
+}
+.lunch{
+    background-color:brown;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.sa{
+    padding-right: 90px;
+    padding-top: 100px;
+}
+.sa:hover{
+    font-size:20px;
+    color: aliceblue;
+}
+.sa h1{
+    padding-bottom: 40px;
+}
+.sa p{
+    padding-top: 10px;
+    font-size:20px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.od{
+    display: flex;
+    justify-content: center;
+    padding-right:80px;
+    margin-top: 20px;
+}
+.od:hover{
+    font-size:25px;
+    color: brown;
+}
+.zs{
+    display: flex;
+   justify-content:center;  
+}
+.zs img:hover{
+  height:260px;
+  width: 210px;
+}
+.od h1{
+    padding-left:120px;
+    
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+   padding-top: 40px;
+   background-image: url(./fimage.jpg);
+}
+.sahil{
+    list-style: none;
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sahil ul li{
+    display: flex;
+    align-items: center;
+   text-align: center;
+    flex-direction: column;
+}
+.sahil p{
+    margin-top:20px;
+    font-size: larger;
+}
+.media{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.media li a :hover{
+    font-size: 40px;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

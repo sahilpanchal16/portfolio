@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    cursor: pointer;
+}
+.row{
+   justify-content: space-between;
+}
+.pro:hover{
+    color: bisque;
+}
+.btn:hover{
+     background-color:rgb(156, 155, 155);
+     color: black;
+    transition: all.2s linear;
+}
+.navbar.nav.nav-item.nav-link:hover{
+    color: burlywood;
+}
